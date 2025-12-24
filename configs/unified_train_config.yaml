@@ -1,0 +1,114 @@
+# 4D Text Grounding Training Configuration
+# This configuration file defines all parameters for training the 4D text grounding pipeline
+
+# Experiment metadata
+experiment:
+  name: "custom data"  # Leave null for auto-generated name
+  description: "text action recall with 11 frames, with new data "
+  tags: ["4d", "text_grounding", "temporal", "baseline"]
+
+# Model configuration
+model:
+  main:
+    dataset: "custom_data" # custom_data, humanml3d
+    pipeline_type: "v1" # Options: "v1", "v2", "v3_qformer"
+
+  pipeline_config:
+    point_model_name: "sonata"
+    point_model_repo: "facebook/sonata"
+    text_encoder_type: "clip"
+    text_model_name: "ViT-B/32"
+    temporal_config: "small"  # Options: "small", "base", "large", "1024_text"
+    device: "cuda"
+    freeze_point_model: true
+    freeze_text_encoder: true
+    point_feature_dim: 512
+    aggregated_feature_dim: 1024
+    use_frame_aggregation: False
+
+# Data configuration
+data:
+  data_root: "data/v1"
+  train_split: "train"
+  val_split: "val"
+  split_ratio: [0.8, 0.2]  # For future use, but not needed if splits are explicit
+  batch_size: 32  # Reduced for memory efficiency with full data
+  num_workers: 16
+  pin_memory: true
+  
+  # Sequence dataset configuration
+  sequence_config:
+    max_points: null  # Limit points for memory efficiency
+    normalize_coords: true
+    grid_size: 0.05
+    num_frames: 11
+    frame_interval: 5
+    center_sampling_strategy: "middle"  # Options: "middle", "random", "first"
+    ensure_full_sequence: true
+    seed: 42
+
+# Training configuration
+training:
+  num_epochs: 100 
+  
+  # Optimizer settings
+  optimizer:
+    type: "adamw"  # Options: "adam", "adamw", "sgd"
+    lr: 1.0e-4  # Reduced learning rate for stability
+    weight_decay: 1.0e-4  # Increased weight decay
+    betas: [0.9, 0.999]
+    eps: 1.0e-8
+  
+  # Learning rate scheduler
+  scheduler:
+    type: "cosine"  # Options: "cosine", "step", "exponential", "plateau"
+    T_max: 50  # Match num_epochs
+    eta_min: 1.0e-6
+    # step_size: 30  # For step scheduler
+    # gamma: 0.1     # For step/exponential scheduler
+    # patience: 10   # For plateau scheduler
+  
+  # Loss function
+  loss:
+    type: "text_action_alignment"
+    temperature: 0.07
+    normalize: true
+  
+  # Validation settings
+  validation:
+    every_n_epochs: 1  # Validate every 2 epochs
+    metric: "loss"  # Metric to track for best model
+    mode: "min"  # "min" for loss, "max" for accuracy
+    
+  # Training optimizations
+  mixed_precision: false  # Enable automatic mixed precision
+  gradient_clipping: 1.0  # Max gradient norm (null to disable)
+  accumulate_gradients: 1  # Gradient accumulation steps
+
+# Checkpointing configuration
+checkpointing:
+  save_best: true
+  save_last: true
+  save_every_n_epochs: 10  # Save checkpoint every 5 epochs
+  max_checkpoints: 10  # Keep more checkpoints for analysis
+
+# Logging configuration
+logging:
+  log_level: "INFO"
+  console_level: "INFO"
+  file_level: "DEBUG"
+  tensorboard_flush_secs: 60
+
+# Output paths
+paths:
+  output_dir: "output/new"  # Absolute base output directory
+  checkpoint_dir: "checkpoints"  # Relative to output_dir/experiment_name/
+  log_dir: "logs"               # Relative to output_dir/experiment_name/
+  tensorboard_dir: "tensorboard" # Relative to output_dir/experiment_name/
+
+# Resume training (optional)
+resume:
+  enabled: false
+  checkpoint_path: null  # Specific checkpoint path, or null for auto-detection
+  resume_best: false  # Resume from best checkpoint
+  resume_last: true   # Resume from last checkpoint

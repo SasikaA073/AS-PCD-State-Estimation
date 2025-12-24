@@ -1,0 +1,20 @@
+torch==2.5.0
+mmcv==2.1.0
+mmdet==3.3.0
+mmengine==0.10.7
+numpy==1.26.4
+matplotlib==3.5.3
+opencv-python==4.12.0.88
+terminaltables==3.1.10
+
+# Notes:
+# - This file captures the packages that were installed/used while preparing
+#   and testing the packaged model in the `sonata` conda environment.
+# - `mmdet3d` is the local repository and should be available by installing
+#   this repo in editable mode on the target system, e.g.:
+#     pip install -e /path/to/mmdetection3d
+# - `mmcv` may require a specific CUDA-enabled build (mmcv-full) for GPU use.
+#   If you need mmcv-full, replace `mmcv==2.1.0` with the appropriate
+#   `mmcv-full` wheel that matches your CUDA/PyTorch.
+# - For a fully reproducible environment, run `pip freeze > requirements.txt`
+#   in your source environment and copy that file into the package.
