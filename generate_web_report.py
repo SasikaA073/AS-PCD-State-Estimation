@@ -2,6 +2,8 @@ import os
 import glob
 import re
 
+import shutil
+
 def parse_results_file(filepath):
     """Parses the KF_results.txt file to extract metrics."""
     metrics = {
@@ -31,9 +33,11 @@ def generate_html_report():
     project_root = os.path.dirname(os.path.abspath(__file__))
     output_dir = os.path.join(project_root, "output")
     docs_dir = os.path.join(project_root, "docs")
+    assets_dir = os.path.join(docs_dir, "assets")
     
-    # Ensure docs directory exists
+    # Ensure docs and assets directories exist
     os.makedirs(docs_dir, exist_ok=True)
+    os.makedirs(assets_dir, exist_ok=True)
     
     # Find all result text files
     result_files = glob.glob(os.path.join(output_dir, "*_KF_results.txt"))
@@ -55,10 +59,27 @@ def generate_html_report():
         sequence_name = match.group(3)
         base_prefix = f"{index}_{scene_id}_{sequence_name}"
         
-        # Paths for other assets (relative to docs/index.html)
-        # Output dir is "../output"
-        gif_path = f"../output/{base_prefix}_preview_top_view.gif"
-        plot_path = f"../output/{base_prefix}_KF_tracking.png"
+        # Source Paths
+        src_gif = os.path.join(output_dir, f"{base_prefix}_preview_top_view.gif")
+        src_plot = os.path.join(output_dir, f"{base_prefix}_KF_tracking.png")
+        
+        # Destination Paths (in docs/assets)
+        dst_gif_name = f"{base_prefix}_preview_top_view.gif"
+        dst_plot_name = f"{base_prefix}_KF_tracking.png"
+        
+        dst_gif = os.path.join(assets_dir, dst_gif_name)
+        dst_plot = os.path.join(assets_dir, dst_plot_name)
+        
+        # Copy files if they exist
+        if os.path.exists(src_gif):
+            shutil.copy2(src_gif, dst_gif)
+        
+        if os.path.exists(src_plot):
+            shutil.copy2(src_plot, dst_plot)
+            
+        # Relative paths for HTML (relative to index.html)
+        html_gif_path = f"assets/{dst_gif_name}"
+        html_plot_path = f"assets/{dst_plot_name}"
         
         # Parse metrics
         metrics = parse_results_file(txt_path)
@@ -67,8 +88,8 @@ def generate_html_report():
             'index': index,
             'scene': scene_id,
             'sequence': sequence_name,
-            'gif': gif_path,
-            'plot': plot_path,
+            'gif': html_gif_path,
+            'plot': html_plot_path,
             'metrics': metrics
         })
         
