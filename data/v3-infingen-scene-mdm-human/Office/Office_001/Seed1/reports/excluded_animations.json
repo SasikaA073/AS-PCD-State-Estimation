@@ -1,0 +1,7 @@
+{
+    "excluded_animations" : [
+        "sequence2",
+        "sequence32",
+        "sequence52"
+    ]
+}

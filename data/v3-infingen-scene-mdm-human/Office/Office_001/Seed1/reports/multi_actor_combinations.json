@@ -1,0 +1,104 @@
+{
+    "combinations" : [
+        {
+            "combinationId" : "combination_001",
+            "actors" : [
+                {
+                    "modelType" : "male",
+                    "animationFile" : "sequence280.json",
+                    "position" : {
+                        "x" : 0.0182081460952759,
+                        "y" : -0.730361580848694,
+                        "z" : 1.46666669845581
+                    },
+                    "rotationY" : 270
+                },
+                {
+                    "modelType" : "female",
+                    "animationFile" : "sequence262.json",
+                    "position" : {
+                        "x" : 0.860440731048584,
+                        "y" : -0.730361580848694,
+                        "z" : 0.402123272418976
+                    },
+                    "rotationY" : 20
+                }
+            ]
+        },
+        {
+            "combinationId" : "combination_002",
+            "actors" : [
+                {
+                    "modelType" : "male",
+                    "animationFile" : "sequence283.json",
+                    "position" : {
+                        "x" : -2.66666674613953,
+                        "y" : -0.730361580848694,
+                        "z" : 1.09047865867615
+                    },
+                    "rotationY" : 170
+                },
+                {
+                    "modelType" : "female",
+                    "animationFile" : "sequence218.json",
+                    "position" : {
+                        "x" : 0.3094182908535,
+                        "y" : -0.730361580848694,
+                        "z" : 1.46666669845581
+                    },
+                    "rotationY" : 0
+                }
+            ]
+        },
+        {
+            "combinationId" : "combination_003",
+            "actors" : [
+                {
+                    "modelType" : "female",
+                    "animationFile" : "sequence236.json",
+                    "position" : {
+                        "x" : -1.47007524967194,
+                        "y" : -0.730361580848694,
+                        "z" : 0.00141847133636475
+                    },
+                    "rotationY" : 70
+                },
+                {
+                    "modelType" : "female",
+                    "animationFile" : "sequence202.json",
+                    "position" : {
+                        "x" : -1.41105794906616,
+                        "y" : -0.730361580848694,
+                        "z" : -0.741116046905518
+                    },
+                    "rotationY" : 0
+                }
+            ]
+        },
+        {
+            "combinationId" : "combination_004",
+            "actors" : [
+                {
+                    "modelType" : "female",
+                    "animationFile" : "sequence280.json",
+                    "position" : {
+                        "x" : -1.75529623031616,
+                        "y" : -0.730361580848694,
+                        "z" : -1.33333325386047
+                    },
+                    "rotationY" : 90
+                },
+                {
+                    "modelType" : "male",
+                    "animationFile" : "sequence300.json",
+                    "position" : {
+                        "x" : -0.687179446220398,
+                        "y" : -0.730361580848694,
+                        "z" : 1.54751133918762
+                    },
+                    "rotationY" : 260
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,46 @@
+{
+    "animationName" : "sequence3",
+    "description" : "A person performs a bowing motion., The person walks forward, then turns to the right., The person walks backward in a straight line.",
+    "tunedOffset" : {
+        "x" : -0.622452199459076,
+        "y" : -0.730361580848694,
+        "z" : 1.53989636898041
+    },
+    "tunedRotationY" : 90,
+    "prompt_segments" : [
+        {
+            "prompt" : "A person performs a bowing motion.",
+            "label" : "bowing",
+            "start_frame" : 0,
+            "end_frame" : 100,
+            "num_frames" : 100
+        },
+        {
+            "prompt" : "The person walks forward, then turns to the right.",
+            "label" : "walking_and_turning",
+            "start_frame" : 100,
+            "end_frame" : 170,
+            "num_frames" : 70
+        },
+        {
+            "prompt" : "The person walks backward in a straight line.",
+            "label" : "walking",
+            "start_frame" : 150,
+            "end_frame" : 220,
+            "num_frames" : 70
+        }
+    ],
+    "shapePresetName" : "average.json",
+    "shapePresetBetas" : [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ]
+}

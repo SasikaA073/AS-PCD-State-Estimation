@@ -1,0 +1,71 @@
+{
+  "environment": "Dining-room",
+  "full_scene_description": "",
+  "segment_summaries": [
+    {
+      "segment_prompt": "A person is walking in a large circle.",
+      "label": "walking",
+      "frame_range": [
+        0,
+        35
+      ],
+      "event_descriptions": [
+        "0.10s\u20130.10s: The person approaches the black colored large cabinet.",
+        "0.20s\u20130.20s: The person is near the black colored large cabinet.",
+        "0.80s\u20130.80s: The person moves away from the black colored large cabinet.",
+        "3.20s\u20133.20s: The person approaches the ivory colored large shelf."
+      ],
+      "video_model_description": "The dining room scene features a person dressed in a light-colored top and pink pants, engaging in a walking activity. The individual moves around the room in a large circle, traversing various areas such as near the black cabinet, around the dining table with green chairs, and towards the white shelf unit. The movements are fluid and continuous, suggesting a purposeful exploration of the space.\n\nThe environment is well-lit, with a modern aesthetic characterized by a tiled floor and minimalistic furniture. The dining table at the center has a dark surface, surrounded by four green chairs with wooden legs. To the left, there is a black cabinet with a potted plant on top, and to the right, an ivory-colored shelving unit with several compartments. A mirror hangs above the shelf unit, reflecting part of the room. The walls are painted in a light color, and the ceiling is white with a visible air conditioning unit.\n\nThroughout the scene, the person's actions seem deliberate and unhurried, possibly indicating a casual inspection or preparation for an event. There are no other individuals present in the scene, focusing the attention solely on the person's movement within the dining area."
+    },
+    {
+      "segment_prompt": "The person turns around.",
+      "label": "turning",
+      "frame_range": [
+        35,
+        95
+      ],
+      "event_descriptions": [
+        "3.60s\u20134.60s: The person approaches the ivory colored large shelf.",
+        "4.30s\u20134.60s: The person approaches the black colored medium-sized window.",
+        "4.30s\u20134.60s: The person approaches the ivory colored medium-sized cabinet.",
+        "4.70s\u20135.50s: The person is near the ivory colored large shelf.",
+        "5.50s\u20135.50s: The person moves away from the black colored medium-sized window.",
+        "6.00s\u20136.00s: The person moves away from the ivory colored medium-sized cabinet.",
+        "6.10s\u20136.10s: The person moves away from the ivory colored large shelf.",
+        "7.60s\u20137.70s: The person approaches the gray colored medium-sized door.",
+        "7.80s\u20137.80s: The person moves away from the gray colored medium-sized door.",
+        "8.10s\u20138.40s: The person approaches the gray colored medium-sized chair.",
+        "8.50s\u20138.50s: The person is near the gray colored medium-sized chair.",
+        "8.70s\u20138.70s: The person moves away from the gray colored medium-sized chair.",
+        "8.80s\u20139.30s: The person approaches the black colored medium-sized table.",
+        "9.40s\u20139.40s: The person is near the black colored medium-sized table."
+      ],
+      "video_model_description": "The scene begins with a person standing in a dining room, facing a white cabinet. They are wearing a light-colored shirt and pink pants. The room features a dark tiled floor, a black table with green chairs, and a white shelving unit against the wall. A small plant sits on top of the shelving unit. The person turns around and walks towards the camera, passing by the shelving unit. They continue walking across the room, moving away from the camera, and eventually stop near the shelving unit again. The person then turns around and starts walking back towards the camera, passing by the table and chairs. They approach the door, turn around, and walk back to the center of the room. Finally, they approach the gray chair and stand near it for a moment before turning around and walking back towards the camera.\n\nIn summary, the person in the scene is seen performing a series of actions within a dining room setting. They move across the room, interacting with various objects such as the table, chairs, and shelving unit, while also approaching and turning away from the camera. The scene takes place in a well-lit room with a modern aesthetic, featuring dark tiles, a black table, and white furniture."
+    },
+    {
+      "segment_prompt": "The person walks in a large circle.",
+      "label": "walking",
+      "frame_range": [
+        85,
+        109
+      ],
+      "event_descriptions": [
+        "8.50s\u20138.50s: The person is near the gray colored medium-sized chair.",
+        "8.50s\u20138.50s: The person approaches the gray colored medium-sized chair.",
+        "8.70s\u20138.70s: The person moves away from the gray colored medium-sized chair.",
+        "8.80s\u20139.30s: The person approaches the black colored medium-sized table.",
+        "9.40s\u20139.40s: The person is near the black colored medium-sized table.",
+        "9.90s\u20139.90s: The person moves away from the black colored medium-sized table."
+      ],
+      "video_model_description": "The scene depicts a person walking in a large circle within a dining room. The individual, dressed in a white shirt and pink pants, starts near a gray-colored chair, moves towards the black table, and then continues walking in a counterclockwise direction around the room, passing by the green chairs, the black console table, and the shelving unit. The person completes one full circle before moving out of the frame.\n\nIn the context of the environment, the dining room is furnished with a rectangular black table surrounded by four green chairs with wooden armrests. Adjacent to the table is a long black console table, and behind it are two white shelves and a tall black cabinet. A potted plant sits on top of the console table. The floor is tiled in a dark pattern, and the walls are painted white. The ceiling is also white with a light fixture visible. The overall atmosphere is minimalistic and modern."
+    }
+  ],
+  "metadata": {
+    "num_segments": 3,
+    "num_frames": 110,
+    "num_objects": 19,
+    "num_events": 36,
+    "video_file": "sequence2.mp4",
+    "scene_file": "scene.pcd"
+  }
+}

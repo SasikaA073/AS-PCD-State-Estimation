@@ -1,0 +1,1142 @@
+{
+    "reportGenerated" : "2025-10-16 00:23:35",
+    "environmentName" : "Office",
+    "environmentInstance" : "Office_001",
+    "sceneName" : "Seed1",
+    "batchProcessorSettings" : {
+        "animationsSubfolderPath" : "Animations/Office",
+        "initialOffsetsConfigName" : "animation_offsets.json",
+        "quitOnFinish" : true
+    },
+    "smplPlayerSettings" : {
+        "initialPosition" : {
+            "x" : -0.747035622596741,
+            "y" : -0.709829151630402,
+            "z" : -1.26495552062988
+        },
+        "initialRotation" : {
+            "x" : 0,
+            "y" : 0.707106828689575,
+            "z" : 0,
+            "w" : 0.707106828689575
+        },
+        "initialScale" : {
+            "x" : 1,
+            "y" : 1,
+            "z" : 1
+        },
+        "loopAnimation" : true,
+        "yOffset" : 0.949999988079071,
+        "playbackSpeed" : 1
+    },
+    "surfaceSamplerSettings" : {
+        "defaultPointsPerUnitArea" : 100,
+        "roomObjectKeyword" : "office",
+        "captureDuration" : 5,
+        "captureFPS" : 10,
+        "baseOutputDirectory" : "Scans/v1",
+        "fixedRandomSeed" : 1,
+        "saveStaticPointCloudSeparately" : true
+    },
+    "sceneRecorderSettings" : {
+    },
+    "cameraSettings" : {
+        "name" : "Camera_2",
+        "position" : {
+            "x" : 2.05999994277954,
+            "y" : 1.62000000476837,
+            "z" : -1.86000001430511
+        },
+        "rotation" : {
+            "x" : 20.2407054901123,
+            "y" : 319.22998046875,
+            "z" : 4.08438491821289
+        },
+        "fieldOfView" : 61.9275169372559,
+        "nearClipPlane" : 0.0999999940395355,
+        "farClipPlane" : 10000,
+        "projectionType" : "Perspective"
+    },
+    "installedPackages" : {
+        "com.unity.ai.navigation" : "2.0.7",
+        "com.unity.collab-proxy" : "2.10.0",
+        "com.unity.ide.rider" : "3.0.36",
+        "com.unity.ide.visualstudio" : "2.0.23",
+        "com.unity.inputsystem" : "1.14.0",
+        "com.unity.multiplayer.center" : "1.0.0",
+        "com.unity.recorder" : "5.1.3",
+        "com.unity.render-pipelines.universal" : "17.1.0",
+        "com.unity.test-framework" : "1.5.1",
+        "com.unity.timeline" : "1.8.7",
+        "com.unity.toolchain.linux-x86_64" : "2.0.10",
+        "com.unity.ugui" : "2.0.0",
+        "com.unity.visualscripting" : "1.9.6",
+        "com.unity.modules.accessibility" : "1.0.0",
+        "com.unity.modules.ai" : "1.0.0",
+        "com.unity.modules.androidjni" : "1.0.0",
+        "com.unity.modules.animation" : "1.0.0",
+        "com.unity.modules.assetbundle" : "1.0.0",
+        "com.unity.modules.audio" : "1.0.0",
+        "com.unity.modules.cloth" : "1.0.0",
+        "com.unity.modules.director" : "1.0.0",
+        "com.unity.modules.imageconversion" : "1.0.0",
+        "com.unity.modules.imgui" : "1.0.0",
+        "com.unity.modules.jsonserialize" : "1.0.0",
+        "com.unity.modules.particlesystem" : "1.0.0",
+        "com.unity.modules.physics" : "1.0.0",
+        "com.unity.modules.physics2d" : "1.0.0",
+        "com.unity.modules.screencapture" : "1.0.0",
+        "com.unity.modules.terrain" : "1.0.0",
+        "com.unity.modules.terrainphysics" : "1.0.0",
+        "com.unity.modules.tilemap" : "1.0.0",
+        "com.unity.modules.ui" : "1.0.0",
+        "com.unity.modules.uielements" : "1.0.0",
+        "com.unity.modules.umbra" : "1.0.0",
+        "com.unity.modules.unityanalytics" : "1.0.0",
+        "com.unity.modules.unitywebrequest" : "1.0.0",
+        "com.unity.modules.unitywebrequestassetbundle" : "1.0.0",
+        "com.unity.modules.unitywebrequestaudio" : "1.0.0",
+        "com.unity.modules.unitywebrequesttexture" : "1.0.0",
+        "com.unity.modules.unitywebrequestwww" : "1.0.0",
+        "com.unity.modules.vehicles" : "1.0.0",
+        "com.unity.modules.video" : "1.0.0",
+        "com.unity.modules.vr" : "1.0.0",
+        "com.unity.modules.wind" : "1.0.0",
+        "com.unity.modules.xr" : "1.0.0"
+    },
+    "sceneObjects" : {
+        "rootObject" : {
+            "instanceName" : "Office_001_Seed1",
+            "position" : {
+                "x" : 0,
+                "y" : 0,
+                "z" : 0
+            },
+            "rotation" : {
+                "x" : 0,
+                "y" : 0,
+                "z" : 0
+            },
+            "scale" : {
+                "x" : 1,
+                "y" : 1,
+                "z" : 1
+            }
+        },
+        "childObjects" : [
+            {
+                "instanceName" : "Light_1",
+                "position" : {
+                    "x" : -2.8414044380188,
+                    "y" : 1.87393426895142,
+                    "z" : 1.01126265525818
+                },
+                "rotation" : {
+                    "x" : 270,
+                    "y" : 180,
+                    "z" : 0
+                },
+                "scale" : {
+                    "x" : 100,
+                    "y" : 100,
+                    "z" : 100
+                },
+                "assetPath" : {
+                    "status" : "Not a Prefab",
+                    "reason" : "Generic GameObject"
+                }
+            },
+            {
+                "instanceName" : "Light_2",
+                "position" : {
+                    "x" : 1.55577778816223,
+                    "y" : 1.87388134002686,
+                    "z" : -0.827178478240967
+                },
+                "rotation" : {
+                    "x" : 270,
+                    "y" : 89.9999923706055,
+                    "z" : 0
+                },
+                "scale" : {
+                    "x" : 100,
+                    "y" : 100,
+                    "z" : 100
+                },
+                "assetPath" : {
+                    "status" : "Not a Prefab",
+                    "reason" : "Generic GameObject"
+                }
+            },
+            {
+                "instanceName" : "Shelf_1",
+                "position" : {
+                    "x" : 2.42388653755188,
+                    "y" : -0.754753410816193,
+                    "z" : 0.583775043487549
+                },
+                "rotation" : {
+                    "x" : 270,
+                    "y" : 0,
+                    "z" : 0
+                },
+                "scale" : {
+                    "x" : 100,
+                    "y" : 100,
+                    "z" : 100
+                },
+                "assetPath" : {
+                    "status" : "Not a Prefab",
+                    "reason" : "Generic GameObject"
+                }
+            },
+            {
+                "instanceName" : "Cabinet_1",
+                "position" : {
+                    "x" : -1.25077033042908,
+                    "y" : -0.754698514938354,
+                    "z" : -1.77008152008057
+                },
+                "rotation" : {
+                    "x" : 270,
+                    "y" : 89.9999923706055,
+                    "z" : 0
+                },
+                "scale" : {
+                    "x" : 100,
+                    "y" : 100,
+                    "z" : 100
+                },
+                "assetPath" : {
+                    "status" : "Not a Prefab",
+                    "reason" : "Generic GameObject"
+                }
+            },
+            {
+                "instanceName" : "Plant_1",
+                "position" : {
+                    "x" : 2.01311159133911,
+                    "y" : -0.734698414802551,
+                    "z" : -1.60385084152222
+                },
+                "rotation" : {
+                    "x" : 270,
+                    "y" : 0,
+                    "z" : 0
+                },
+                "scale" : {
+                    "x" : 100,
+                    "y" : 100,
+                    "z" : 100
+                },
+                "assetPath" : {
+                    "status" : "Not a Prefab",
+                    "reason" : "Generic GameObject"
+                }
+            },
+            {
+                "instanceName" : "Shelf_2",
+                "position" : {
+                    "x" : -3.00006341934204,
+                    "y" : -0.75461083650589,
+                    "z" : 1.29566287994385
+                },
+                "rotation" : {
+                    "x" : 270,
+                    "y" : 180,
+                    "z" : 0
+                },
+                "scale" : {
+                    "x" : 100,
+                    "y" : 100,
+                    "z" : 100
+                },
+                "assetPath" : {
+                    "status" : "Not a Prefab",
+                    "reason" : "Generic GameObject"
+                }
+            },
+            {
+                "instanceName" : "Door_1",
+                "position" : {
+                    "x" : -0.466741323471069,
+                    "y" : -0.754698395729065,
+                    "z" : 1.98305106163025
+                },
+                "rotation" : {
+                    "x" : 270,
+                    "y" : 183.760864257813,
+                    "z" : 0
+                },
+                "scale" : {
+                    "x" : 99.9999923706055,
+                    "y" : 99.9999923706055,
+                    "z" : 100
+                },
+                "assetPath" : {
+                    "status" : "Not a Prefab",
+                    "reason" : "Generic GameObject"
+                }
+            },
+            {
+                "instanceName" : "Mirror_1",
+                "position" : {
+                    "x" : -2.10794019699097,
+                    "y" : 0.515411734580994,
+                    "z" : 1.67622482776642
+                },
+                "rotation" : {
+                    "x" : 270,
+                    "y" : 270,
+                    "z" : 0
+                },
+                "scale" : {
+                    "x" : 100,
+                    "y" : 100,
+                    "z" : 100
+                },
+                "assetPath" : {
+                    "status" : "Not a Prefab",
+                    "reason" : "Generic GameObject"
+                }
+            },
+            {
+                "instanceName" : "Ceiling_1",
+                "position" : {
+                    "x" : -0.357848644256592,
+                    "y" : 1.87384247779846,
+                    "z" : -0.165363788604736
+                },
+                "rotation" : {
+                    "x" : 270,
+                    "y" : 0,
+                    "z" : 0
+                },
+                "scale" : {
+                    "x" : 100,
+                    "y" : 100,
+                    "z" : 100
+                },
+                "assetPath" : {
+                    "status" : "Not a Prefab",
+                    "reason" : "Generic GameObject"
+                }
+            },
+            {
+                "instanceName" : "Floor_1",
+                "position" : {
+                    "x" : -0.497916221618652,
+                    "y" : -0.75469696521759,
+                    "z" : 0.287764310836792
+                },
+                "rotation" : {
+                    "x" : 270,
+                    "y" : 0,
+                    "z" : 0
+                },
+                "scale" : {
+                    "x" : 100,
+                    "y" : 100,
+                    "z" : 100
+                },
+                "assetPath" : {
+                    "status" : "Not a Prefab",
+                    "reason" : "Generic GameObject"
+                }
+            },
+            {
+                "instanceName" : "Wall_1",
+                "position" : {
+                    "x" : -1.21387887001038,
+                    "y" : 0.576135516166687,
+                    "z" : 0.184350252151489
+                },
+                "rotation" : {
+                    "x" : 270,
+                    "y" : 0,
+                    "z" : 0
+                },
+                "scale" : {
+                    "x" : 100,
+                    "y" : 100,
+                    "z" : 100
+                },
+                "assetPath" : {
+                    "status" : "Not a Prefab",
+                    "reason" : "Generic GameObject"
+                }
+            },
+            {
+                "instanceName" : "Lamp_1",
+                "position" : {
+                    "x" : -2.8414044380188,
+                    "y" : 1.84393429756165,
+                    "z" : 1.01126265525818
+                },
+                "rotation" : {
+                    "x" : 90,
+                    "y" : 180,
+                    "z" : 0
+                },
+                "scale" : {
+                    "x" : 100,
+                    "y" : 100,
+                    "z" : 100
+                },
+                "assetPath" : {
+                    "status" : "Not a Prefab",
+                    "reason" : "Generic GameObject"
+                }
+            },
+            {
+                "instanceName" : "Lamp_2",
+                "position" : {
+                    "x" : 1.55577778816223,
+                    "y" : 1.84388136863708,
+                    "z" : -0.827178478240967
+                },
+                "rotation" : {
+                    "x" : 90,
+                    "y" : 89.9999847412109,
+                    "z" : 0
+                },
+                "scale" : {
+                    "x" : 100,
+                    "y" : 100,
+                    "z" : 100
+                },
+                "assetPath" : {
+                    "status" : "Not a Prefab",
+                    "reason" : "Generic GameObject"
+                }
+            },
+            {
+                "instanceName" : "Shelf_3",
+                "position" : {
+                    "x" : -2.96647691726685,
+                    "y" : -0.754747629165649,
+                    "z" : -0.109197974205017
+                },
+                "rotation" : {
+                    "x" : 270,
+                    "y" : 180.000137329102,
+                    "z" : 0
+                },
+                "scale" : {
+                    "x" : 100,
+                    "y" : 100,
+                    "z" : 100
+                },
+                "assetPath" : {
+                    "status" : "Not a Prefab",
+                    "reason" : "Generic GameObject"
+                }
+            },
+            {
+                "instanceName" : "Shelf_4",
+                "position" : {
+                    "x" : -2.99406814575195,
+                    "y" : -0.75465989112854,
+                    "z" : -0.829260110855103
+                },
+                "rotation" : {
+                    "x" : 270,
+                    "y" : 180,
+                    "z" : 0
+                },
+                "scale" : {
+                    "x" : 100,
+                    "y" : 100,
+                    "z" : 100
+                },
+                "assetPath" : {
+                    "status" : "Not a Prefab",
+                    "reason" : "Generic GameObject"
+                }
+            },
+            {
+                "instanceName" : "Shelf_5",
+                "position" : {
+                    "x" : 0.567089557647705,
+                    "y" : -0.754612743854523,
+                    "z" : -1.7417140007019
+                },
+                "rotation" : {
+                    "x" : 270,
+                    "y" : 89.9999923706055,
+                    "z" : 0
+                },
+                "scale" : {
+                    "x" : 100,
+                    "y" : 100,
+                    "z" : 100
+                },
+                "assetPath" : {
+                    "status" : "Not a Prefab",
+                    "reason" : "Generic GameObject"
+                }
+            },
+            {
+                "instanceName" : "Shelf_6",
+                "position" : {
+                    "x" : 1.24038469791412,
+                    "y" : -0.754637837409973,
+                    "z" : -1.79555654525757
+                },
+                "rotation" : {
+                    "x" : 270,
+                    "y" : 90.002197265625,
+                    "z" : 0
+                },
+                "scale" : {
+                    "x" : 100,
+                    "y" : 100,
+                    "z" : 100
+                },
+                "assetPath" : {
+                    "status" : "Not a Prefab",
+                    "reason" : "Generic GameObject"
+                }
+            },
+            {
+                "instanceName" : "Art_1",
+                "position" : {
+                    "x" : 0.922226786613464,
+                    "y" : 0.423149704933167,
+                    "z" : 1.67622470855713
+                },
+                "rotation" : {
+                    "x" : 270,
+                    "y" : 270,
+                    "z" : 0
+                },
+                "scale" : {
+                    "x" : 100,
+                    "y" : 100,
+                    "z" : 100
+                },
+                "assetPath" : {
+                    "status" : "Not a Prefab",
+                    "reason" : "Generic GameObject"
+                }
+            },
+            {
+                "instanceName" : "Art_2",
+                "position" : {
+                    "x" : 2.483806848526,
+                    "y" : 0.513297557830811,
+                    "z" : -0.565680503845215
+                },
+                "rotation" : {
+                    "x" : 270,
+                    "y" : 0.00270445854403079,
+                    "z" : 0
+                },
+                "scale" : {
+                    "x" : 100,
+                    "y" : 100,
+                    "z" : 100
+                },
+                "assetPath" : {
+                    "status" : "Not a Prefab",
+                    "reason" : "Generic GameObject"
+                }
+            },
+            {
+                "instanceName" : "Art_3",
+                "position" : {
+                    "x" : -1.79423379898071,
+                    "y" : 0.969512343406677,
+                    "z" : -2.00700330734253
+                },
+                "rotation" : {
+                    "x" : 270,
+                    "y" : 90.002197265625,
+                    "z" : 0
+                },
+                "scale" : {
+                    "x" : 100,
+                    "y" : 100,
+                    "z" : 100
+                },
+                "assetPath" : {
+                    "status" : "Not a Prefab",
+                    "reason" : "Generic GameObject"
+                }
+            },
+            {
+                "instanceName" : "Art_4",
+                "position" : {
+                    "x" : 0.637464046478271,
+                    "y" : 0.526474952697754,
+                    "z" : -2.00694894790649
+                },
+                "rotation" : {
+                    "x" : 270,
+                    "y" : 89.9999923706055,
+                    "z" : 0
+                },
+                "scale" : {
+                    "x" : 100,
+                    "y" : 100,
+                    "z" : 100
+                },
+                "assetPath" : {
+                    "status" : "Not a Prefab",
+                    "reason" : "Generic GameObject"
+                }
+            },
+            {
+                "instanceName" : "Window_1",
+                "position" : {
+                    "x" : -3.20943546295166,
+                    "y" : 0.589082837104797,
+                    "z" : -0.268038272857666
+                },
+                "rotation" : {
+                    "x" : 90,
+                    "y" : 270.000030517578,
+                    "z" : 0
+                },
+                "scale" : {
+                    "x" : 100,
+                    "y" : 100,
+                    "z" : 100
+                },
+                "assetPath" : {
+                    "status" : "Not a Prefab",
+                    "reason" : "Generic GameObject"
+                }
+            }
+        ]
+    },
+    "processedAnimations" : [
+        {
+            "animationName" : "sequence1",
+            "tunedOffset" : {
+                "x" : -0.702838659286499,
+                "y" : -0.730361580848694,
+                "z" : 0.897378146648407
+            },
+            "tunedRotationY" : 0
+        },
+        {
+            "animationName" : "sequence10",
+            "tunedOffset" : {
+                "x" : 0.408159255981445,
+                "y" : -0.730361580848694,
+                "z" : -0.59661728143692
+            },
+            "tunedRotationY" : 0
+        },
+        {
+            "animationName" : "sequence11",
+            "tunedOffset" : {
+                "x" : -2.66666674613953,
+                "y" : -0.730361580848694,
+                "z" : 1.40000009536743
+            },
+            "tunedRotationY" : 90
+        },
+        {
+            "animationName" : "sequence12",
+            "tunedOffset" : {
+                "x" : -1.29045212268829,
+                "y" : -0.730361580848694,
+                "z" : 0.339109301567078
+            },
+            "tunedRotationY" : 280
+        },
+        {
+            "animationName" : "sequence13",
+            "tunedOffset" : {
+                "x" : 1.52598309516907,
+                "y" : -0.730361580848694,
+                "z" : 0.0240581035614014
+            },
+            "tunedRotationY" : 240
+        },
+        {
+            "animationName" : "sequence14",
+            "tunedOffset" : {
+                "x" : -2.66666674613953,
+                "y" : -0.730361580848694,
+                "z" : 1.40000009536743
+            },
+            "tunedRotationY" : 90
+        },
+        {
+            "animationName" : "sequence15",
+            "tunedOffset" : {
+                "x" : 2.24596929550171,
+                "y" : -0.730361580848694,
+                "z" : 1.46666669845581
+            },
+            "tunedRotationY" : 270
+        },
+        {
+            "animationName" : "sequence16",
+            "tunedOffset" : {
+                "x" : -2.87542366981506,
+                "y" : -0.730361580848694,
+                "z" : 0.450282335281372
+            },
+            "tunedRotationY" : 70
+        },
+        {
+            "animationName" : "sequence17",
+            "tunedOffset" : {
+                "x" : 0.408670216798782,
+                "y" : -0.730361580848694,
+                "z" : 1.46666669845581
+            },
+            "tunedRotationY" : 350
+        },
+        {
+            "animationName" : "sequence18",
+            "tunedOffset" : {
+                "x" : -1.19083642959595,
+                "y" : -0.730361580848694,
+                "z" : -0.985253572463989
+            },
+            "tunedRotationY" : 80
+        },
+        {
+            "animationName" : "sequence19",
+            "tunedOffset" : {
+                "x" : 0.356885552406311,
+                "y" : -0.730361580848694,
+                "z" : -1.00646495819092
+            },
+            "tunedRotationY" : 80
+        },
+        {
+            "animationName" : "sequence20",
+            "tunedOffset" : {
+                "x" : -1.68177890777588,
+                "y" : -0.730361580848694,
+                "z" : -0.487392365932465
+            },
+            "tunedRotationY" : 80
+        },
+        {
+            "animationName" : "sequence21",
+            "tunedOffset" : {
+                "x" : 1.01672053337097,
+                "y" : -0.730361580848694,
+                "z" : -0.480736911296844
+            },
+            "tunedRotationY" : 0
+        },
+        {
+            "animationName" : "sequence22",
+            "tunedOffset" : {
+                "x" : -0.973525762557983,
+                "y" : -0.730361580848694,
+                "z" : -1.33008742332458
+            },
+            "tunedRotationY" : 60
+        },
+        {
+            "animationName" : "sequence23",
+            "tunedOffset" : {
+                "x" : -0.280493497848511,
+                "y" : -0.730361580848694,
+                "z" : 0.792569279670715
+            },
+            "tunedRotationY" : 260
+        },
+        {
+            "animationName" : "sequence24",
+            "tunedOffset" : {
+                "x" : -2.48839640617371,
+                "y" : -0.730361580848694,
+                "z" : -0.733735144138336
+            },
+            "tunedRotationY" : 180
+        },
+        {
+            "animationName" : "sequence25",
+            "tunedOffset" : {
+                "x" : 1.82662606239319,
+                "y" : -0.730361580848694,
+                "z" : 1.34071457386017
+            },
+            "tunedRotationY" : 260
+        },
+        {
+            "animationName" : "sequence26",
+            "tunedOffset" : {
+                "x" : 0.461553573608398,
+                "y" : -0.730361580848694,
+                "z" : 1.15119647979736
+            },
+            "tunedRotationY" : 270
+        },
+        {
+            "animationName" : "sequence27",
+            "tunedOffset" : {
+                "x" : -1.6508629322052,
+                "y" : -0.730361580848694,
+                "z" : -0.904063999652863
+            },
+            "tunedRotationY" : 0
+        },
+        {
+            "animationName" : "sequence28",
+            "tunedOffset" : {
+                "x" : 0.201061964035034,
+                "y" : -0.730361580848694,
+                "z" : -1.21634745597839
+            },
+            "tunedRotationY" : 0
+        },
+        {
+            "animationName" : "sequence29",
+            "tunedOffset" : {
+                "x" : 1.16107773780823,
+                "y" : -0.730361580848694,
+                "z" : 1.46666669845581
+            },
+            "tunedRotationY" : 240
+        },
+        {
+            "animationName" : "sequence3",
+            "tunedOffset" : {
+                "x" : -0.622452199459076,
+                "y" : -0.730361580848694,
+                "z" : 1.53989636898041
+            },
+            "tunedRotationY" : 90
+        },
+        {
+            "animationName" : "sequence30",
+            "tunedOffset" : {
+                "x" : -1.36535120010376,
+                "y" : -0.730361580848694,
+                "z" : -1.33333325386047
+            },
+            "tunedRotationY" : 40
+        },
+        {
+            "animationName" : "sequence31",
+            "tunedOffset" : {
+                "x" : -0.114091157913208,
+                "y" : -0.730361580848694,
+                "z" : -1.02666330337524
+            },
+            "tunedRotationY" : 0
+        },
+        {
+            "animationName" : "sequence33",
+            "tunedOffset" : {
+                "x" : -1.86698806285858,
+                "y" : -0.730361580848694,
+                "z" : -0.281418323516846
+            },
+            "tunedRotationY" : 60
+        },
+        {
+            "animationName" : "sequence34",
+            "tunedOffset" : {
+                "x" : -0.506245255470276,
+                "y" : -0.730361580848694,
+                "z" : 1.17314803600311
+            },
+            "tunedRotationY" : 80
+        },
+        {
+            "animationName" : "sequence35",
+            "tunedOffset" : {
+                "x" : -0.642555475234985,
+                "y" : -0.730361580848694,
+                "z" : 1.09397006034851
+            },
+            "tunedRotationY" : 180
+        },
+        {
+            "animationName" : "sequence36",
+            "tunedOffset" : {
+                "x" : -0.579044222831726,
+                "y" : -0.730361580848694,
+                "z" : 0.327780485153198
+            },
+            "tunedRotationY" : 70
+        },
+        {
+            "animationName" : "sequence37",
+            "tunedOffset" : {
+                "x" : 1.86666679382324,
+                "y" : -0.730361580848694,
+                "z" : 0.582707583904266
+            },
+            "tunedRotationY" : 160
+        },
+        {
+            "animationName" : "sequence38",
+            "tunedOffset" : {
+                "x" : -1.3759423494339,
+                "y" : -0.730361580848694,
+                "z" : -0.857243835926056
+            },
+            "tunedRotationY" : 60
+        },
+        {
+            "animationName" : "sequence39",
+            "tunedOffset" : {
+                "x" : -2.43371152877808,
+                "y" : -0.730361580848694,
+                "z" : -0.310380101203918
+            },
+            "tunedRotationY" : 60
+        },
+        {
+            "animationName" : "sequence4",
+            "tunedOffset" : {
+                "x" : 1.09237575531006,
+                "y" : -0.730361580848694,
+                "z" : 0.545939266681671
+            },
+            "tunedRotationY" : 230
+        },
+        {
+            "animationName" : "sequence40",
+            "tunedOffset" : {
+                "x" : 1.42835378646851,
+                "y" : -0.730361580848694,
+                "z" : 1.41618287563324
+            },
+            "tunedRotationY" : 160
+        },
+        {
+            "animationName" : "sequence41",
+            "tunedOffset" : {
+                "x" : -2.06236457824707,
+                "y" : -0.730361580848694,
+                "z" : 1.21243739128113
+            },
+            "tunedRotationY" : 90
+        },
+        {
+            "animationName" : "sequence42",
+            "tunedOffset" : {
+                "x" : 1.12217855453491,
+                "y" : -0.730361580848694,
+                "z" : -0.217602252960205
+            },
+            "tunedRotationY" : 0
+        },
+        {
+            "animationName" : "sequence43",
+            "tunedOffset" : {
+                "x" : -2.31984543800354,
+                "y" : -0.730361580848694,
+                "z" : 1.40000009536743
+            },
+            "tunedRotationY" : 180
+        },
+        {
+            "animationName" : "sequence44",
+            "tunedOffset" : {
+                "x" : -1.83988356590271,
+                "y" : -0.730361580848694,
+                "z" : -1.33333325386047
+            },
+            "tunedRotationY" : 0
+        },
+        {
+            "animationName" : "sequence45",
+            "tunedOffset" : {
+                "x" : -1.63778579235077,
+                "y" : -0.730361580848694,
+                "z" : 0.903209626674652
+            },
+            "tunedRotationY" : 160
+        },
+        {
+            "animationName" : "sequence46",
+            "tunedOffset" : {
+                "x" : -0.97357177734375,
+                "y" : -0.730361580848694,
+                "z" : 0.278316378593445
+            },
+            "tunedRotationY" : 70
+        },
+        {
+            "animationName" : "sequence47",
+            "tunedOffset" : {
+                "x" : 0.660937905311584,
+                "y" : -0.730361580848694,
+                "z" : 0.109396815299988
+            },
+            "tunedRotationY" : 200
+        },
+        {
+            "animationName" : "sequence48",
+            "tunedOffset" : {
+                "x" : -1.50565230846405,
+                "y" : -0.730361580848694,
+                "z" : -1.12550449371338
+            },
+            "tunedRotationY" : 180
+        },
+        {
+            "animationName" : "sequence49",
+            "tunedOffset" : {
+                "x" : -2.77923607826233,
+                "y" : -0.730361580848694,
+                "z" : 0.386157214641571
+            },
+            "tunedRotationY" : 80
+        },
+        {
+            "animationName" : "sequence5",
+            "tunedOffset" : {
+                "x" : 1.28733575344086,
+                "y" : -0.730361580848694,
+                "z" : 0.239785492420197
+            },
+            "tunedRotationY" : 280
+        },
+        {
+            "animationName" : "sequence50",
+            "tunedOffset" : {
+                "x" : 1.22551393508911,
+                "y" : -0.730361580848694,
+                "z" : 0.685486197471619
+            },
+            "tunedRotationY" : 50
+        },
+        {
+            "animationName" : "sequence51",
+            "tunedOffset" : {
+                "x" : -1.13333344459534,
+                "y" : -0.730361580848694,
+                "z" : 1.60000014305115
+            },
+            "tunedRotationY" : 230
+        },
+        {
+            "animationName" : "sequence53",
+            "tunedOffset" : {
+                "x" : -2.52929067611694,
+                "y" : -0.730361580848694,
+                "z" : 0.233696818351746
+            },
+            "tunedRotationY" : 80
+        },
+        {
+            "animationName" : "sequence54",
+            "tunedOffset" : {
+                "x" : -2.22226476669312,
+                "y" : -0.730361580848694,
+                "z" : -1.33333325386047
+            },
+            "tunedRotationY" : 90
+        },
+        {
+            "animationName" : "sequence55",
+            "tunedOffset" : {
+                "x" : -2.44165539741516,
+                "y" : -0.730361580848694,
+                "z" : 0.780922532081604
+            },
+            "tunedRotationY" : 170
+        },
+        {
+            "animationName" : "sequence56",
+            "tunedOffset" : {
+                "x" : -2.66666674613953,
+                "y" : -0.730361580848694,
+                "z" : 1.40000009536743
+            },
+            "tunedRotationY" : 90
+        },
+        {
+            "animationName" : "sequence57",
+            "tunedOffset" : {
+                "x" : -2.04154753684998,
+                "y" : -0.730361580848694,
+                "z" : 1.16807305812836
+            },
+            "tunedRotationY" : 70
+        },
+        {
+            "animationName" : "sequence58",
+            "tunedOffset" : {
+                "x" : 1.90369296073914,
+                "y" : -0.730361580848694,
+                "z" : -0.938171863555908
+            },
+            "tunedRotationY" : 260
+        },
+        {
+            "animationName" : "sequence59",
+            "tunedOffset" : {
+                "x" : -1.41383171081543,
+                "y" : -0.730361580848694,
+                "z" : 1.37424206733704
+            },
+            "tunedRotationY" : 90
+        },
+        {
+            "animationName" : "sequence6",
+            "tunedOffset" : {
+                "x" : -1.41246175765991,
+                "y" : -0.730361580848694,
+                "z" : 1.1170562505722
+            },
+            "tunedRotationY" : 120
+        },
+        {
+            "animationName" : "sequence60",
+            "tunedOffset" : {
+                "x" : -2.10959148406982,
+                "y" : -0.730361580848694,
+                "z" : -0.579379439353943
+            },
+            "tunedRotationY" : 80
+        },
+        {
+            "animationName" : "sequence61",
+            "tunedOffset" : {
+                "x" : -1.21919906139374,
+                "y" : -0.730361580848694,
+                "z" : -1.00532841682434
+            },
+            "tunedRotationY" : 200
+        },
+        {
+            "animationName" : "sequence7",
+            "tunedOffset" : {
+                "x" : -0.78489625453949,
+                "y" : -0.730361580848694,
+                "z" : -1.50798606872559
+            },
+            "tunedRotationY" : 30
+        },
+        {
+            "animationName" : "sequence8",
+            "tunedOffset" : {
+                "x" : 0.37190043926239,
+                "y" : -0.730361580848694,
+                "z" : 0.500249266624451
+            },
+            "tunedRotationY" : 0
+        },
+        {
+            "animationName" : "sequence9",
+            "tunedOffset" : {
+                "x" : -2.65079355239868,
+                "y" : -0.730361580848694,
+                "z" : -1.01586818695068
+            },
+            "tunedRotationY" : 90
+        }
+    ],
+    "excludedAnimations" : [
+        "sequence2",
+        "sequence32",
+        "sequence52"
+    ]
+}

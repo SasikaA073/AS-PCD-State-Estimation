@@ -1,0 +1,708 @@
+{
+    "reportGenerated" : "2025-10-13 14:12:35",
+    "environmentName" : "Office",
+    "environmentInstance" : "Office_001",
+    "sceneName" : "Seed1",
+    "batchProcessorSettings" : {
+        "animationsSubfolderPath" : "Animations/Office/fixed_duration",
+        "initialOffsetsConfigName" : "animation_offsets.json",
+        "quitOnFinish" : true
+    },
+    "smplPlayerSettings" : {
+        "initialPosition" : {
+            "x" : 0,
+            "y" : 0,
+            "z" : 0
+        },
+        "initialRotation" : {
+            "x" : 0,
+            "y" : 0,
+            "z" : 0,
+            "w" : 1
+        },
+        "initialScale" : {
+            "x" : 1,
+            "y" : 1,
+            "z" : 1
+        },
+        "loopAnimation" : true,
+        "yOffset" : 0.949999988079071,
+        "playbackSpeed" : 1
+    },
+    "surfaceSamplerSettings" : {
+        "defaultPointsPerUnitArea" : 100,
+        "roomObjectKeyword" : "office",
+        "captureDuration" : 5,
+        "captureFPS" : 10,
+        "baseOutputDirectory" : "Scans/v1",
+        "fixedRandomSeed" : 1,
+        "saveStaticPointCloudSeparately" : true
+    },
+    "sceneRecorderSettings" : {
+    },
+    "cameraSettings" : {
+        "name" : "Camera_1",
+        "position" : {
+            "x" : 0,
+            "y" : 5.23299980163574,
+            "z" : 0
+        },
+        "rotation" : {
+            "x" : 90,
+            "y" : 0,
+            "z" : 0
+        },
+        "fieldOfView" : 61.9275169372559,
+        "nearClipPlane" : 0.0999999940395355,
+        "farClipPlane" : 10000,
+        "projectionType" : "Perspective"
+    },
+    "installedPackages" : {
+        "com.unity.ai.navigation" : "2.0.7",
+        "com.unity.collab-proxy" : "2.10.0",
+        "com.unity.ide.rider" : "3.0.36",
+        "com.unity.ide.visualstudio" : "2.0.23",
+        "com.unity.inputsystem" : "1.14.0",
+        "com.unity.multiplayer.center" : "1.0.0",
+        "com.unity.recorder" : "5.1.3",
+        "com.unity.render-pipelines.universal" : "17.1.0",
+        "com.unity.test-framework" : "1.5.1",
+        "com.unity.timeline" : "1.8.7",
+        "com.unity.toolchain.linux-x86_64" : "2.0.10",
+        "com.unity.ugui" : "2.0.0",
+        "com.unity.visualscripting" : "1.9.6",
+        "com.unity.modules.accessibility" : "1.0.0",
+        "com.unity.modules.ai" : "1.0.0",
+        "com.unity.modules.androidjni" : "1.0.0",
+        "com.unity.modules.animation" : "1.0.0",
+        "com.unity.modules.assetbundle" : "1.0.0",
+        "com.unity.modules.audio" : "1.0.0",
+        "com.unity.modules.cloth" : "1.0.0",
+        "com.unity.modules.director" : "1.0.0",
+        "com.unity.modules.imageconversion" : "1.0.0",
+        "com.unity.modules.imgui" : "1.0.0",
+        "com.unity.modules.jsonserialize" : "1.0.0",
+        "com.unity.modules.particlesystem" : "1.0.0",
+        "com.unity.modules.physics" : "1.0.0",
+        "com.unity.modules.physics2d" : "1.0.0",
+        "com.unity.modules.screencapture" : "1.0.0",
+        "com.unity.modules.terrain" : "1.0.0",
+        "com.unity.modules.terrainphysics" : "1.0.0",
+        "com.unity.modules.tilemap" : "1.0.0",
+        "com.unity.modules.ui" : "1.0.0",
+        "com.unity.modules.uielements" : "1.0.0",
+        "com.unity.modules.umbra" : "1.0.0",
+        "com.unity.modules.unityanalytics" : "1.0.0",
+        "com.unity.modules.unitywebrequest" : "1.0.0",
+        "com.unity.modules.unitywebrequestassetbundle" : "1.0.0",
+        "com.unity.modules.unitywebrequestaudio" : "1.0.0",
+        "com.unity.modules.unitywebrequesttexture" : "1.0.0",
+        "com.unity.modules.unitywebrequestwww" : "1.0.0",
+        "com.unity.modules.vehicles" : "1.0.0",
+        "com.unity.modules.video" : "1.0.0",
+        "com.unity.modules.vr" : "1.0.0",
+        "com.unity.modules.wind" : "1.0.0",
+        "com.unity.modules.xr" : "1.0.0"
+    },
+    "sceneObjects" : {
+        "rootObject" : {
+            "instanceName" : "Office_001_Seed1",
+            "position" : {
+                "x" : 0,
+                "y" : 0,
+                "z" : 0
+            },
+            "rotation" : {
+                "x" : 0,
+                "y" : 0,
+                "z" : 0
+            },
+            "scale" : {
+                "x" : 1,
+                "y" : 1,
+                "z" : 1
+            }
+        },
+        "childObjects" : [
+            {
+                "instanceName" : "Light_1",
+                "position" : {
+                    "x" : -2.8414044380188,
+                    "y" : 1.87393426895142,
+                    "z" : 1.01126265525818
+                },
+                "rotation" : {
+                    "x" : 270,
+                    "y" : 180,
+                    "z" : 0
+                },
+                "scale" : {
+                    "x" : 100,
+                    "y" : 100,
+                    "z" : 100
+                },
+                "assetPath" : {
+                    "status" : "Not a Prefab",
+                    "reason" : "Generic GameObject"
+                }
+            },
+            {
+                "instanceName" : "Light_2",
+                "position" : {
+                    "x" : 1.55577778816223,
+                    "y" : 1.87388134002686,
+                    "z" : -0.827178478240967
+                },
+                "rotation" : {
+                    "x" : 270,
+                    "y" : 89.9999923706055,
+                    "z" : 0
+                },
+                "scale" : {
+                    "x" : 100,
+                    "y" : 100,
+                    "z" : 100
+                },
+                "assetPath" : {
+                    "status" : "Not a Prefab",
+                    "reason" : "Generic GameObject"
+                }
+            },
+            {
+                "instanceName" : "Shelf_1",
+                "position" : {
+                    "x" : 2.42388653755188,
+                    "y" : -0.754753410816193,
+                    "z" : 0.583775043487549
+                },
+                "rotation" : {
+                    "x" : 270,
+                    "y" : 0,
+                    "z" : 0
+                },
+                "scale" : {
+                    "x" : 100,
+                    "y" : 100,
+                    "z" : 100
+                },
+                "assetPath" : {
+                    "status" : "Not a Prefab",
+                    "reason" : "Generic GameObject"
+                }
+            },
+            {
+                "instanceName" : "Cabinet_1",
+                "position" : {
+                    "x" : -1.25077033042908,
+                    "y" : -0.754698514938354,
+                    "z" : -1.77008152008057
+                },
+                "rotation" : {
+                    "x" : 270,
+                    "y" : 89.9999923706055,
+                    "z" : 0
+                },
+                "scale" : {
+                    "x" : 100,
+                    "y" : 100,
+                    "z" : 100
+                },
+                "assetPath" : {
+                    "status" : "Not a Prefab",
+                    "reason" : "Generic GameObject"
+                }
+            },
+            {
+                "instanceName" : "Plant_1",
+                "position" : {
+                    "x" : 2.01311159133911,
+                    "y" : -0.734698414802551,
+                    "z" : -1.60385084152222
+                },
+                "rotation" : {
+                    "x" : 270,
+                    "y" : 0,
+                    "z" : 0
+                },
+                "scale" : {
+                    "x" : 100,
+                    "y" : 100,
+                    "z" : 100
+                },
+                "assetPath" : {
+                    "status" : "Not a Prefab",
+                    "reason" : "Generic GameObject"
+                }
+            },
+            {
+                "instanceName" : "Shelf_2",
+                "position" : {
+                    "x" : -3.00006341934204,
+                    "y" : -0.75461083650589,
+                    "z" : 1.29566287994385
+                },
+                "rotation" : {
+                    "x" : 270,
+                    "y" : 180,
+                    "z" : 0
+                },
+                "scale" : {
+                    "x" : 100,
+                    "y" : 100,
+                    "z" : 100
+                },
+                "assetPath" : {
+                    "status" : "Not a Prefab",
+                    "reason" : "Generic GameObject"
+                }
+            },
+            {
+                "instanceName" : "Door_1",
+                "position" : {
+                    "x" : -0.466741323471069,
+                    "y" : -0.754698395729065,
+                    "z" : 1.98305106163025
+                },
+                "rotation" : {
+                    "x" : 270,
+                    "y" : 183.760864257813,
+                    "z" : 0
+                },
+                "scale" : {
+                    "x" : 99.9999923706055,
+                    "y" : 99.9999923706055,
+                    "z" : 100
+                },
+                "assetPath" : {
+                    "status" : "Not a Prefab",
+                    "reason" : "Generic GameObject"
+                }
+            },
+            {
+                "instanceName" : "Mirror_1",
+                "position" : {
+                    "x" : -2.10794019699097,
+                    "y" : 0.515411734580994,
+                    "z" : 1.67622482776642
+                },
+                "rotation" : {
+                    "x" : 270,
+                    "y" : 270,
+                    "z" : 0
+                },
+                "scale" : {
+                    "x" : 100,
+                    "y" : 100,
+                    "z" : 100
+                },
+                "assetPath" : {
+                    "status" : "Not a Prefab",
+                    "reason" : "Generic GameObject"
+                }
+            },
+            {
+                "instanceName" : "Ceiling_1",
+                "position" : {
+                    "x" : -0.357848644256592,
+                    "y" : 1.87384247779846,
+                    "z" : -0.165363788604736
+                },
+                "rotation" : {
+                    "x" : 270,
+                    "y" : 0,
+                    "z" : 0
+                },
+                "scale" : {
+                    "x" : 100,
+                    "y" : 100,
+                    "z" : 100
+                },
+                "assetPath" : {
+                    "status" : "Not a Prefab",
+                    "reason" : "Generic GameObject"
+                }
+            },
+            {
+                "instanceName" : "Floor_1",
+                "position" : {
+                    "x" : -0.497916221618652,
+                    "y" : -0.75469696521759,
+                    "z" : 0.287764310836792
+                },
+                "rotation" : {
+                    "x" : 270,
+                    "y" : 0,
+                    "z" : 0
+                },
+                "scale" : {
+                    "x" : 100,
+                    "y" : 100,
+                    "z" : 100
+                },
+                "assetPath" : {
+                    "status" : "Not a Prefab",
+                    "reason" : "Generic GameObject"
+                }
+            },
+            {
+                "instanceName" : "Wall_1",
+                "position" : {
+                    "x" : -1.21387887001038,
+                    "y" : 0.576135516166687,
+                    "z" : 0.184350252151489
+                },
+                "rotation" : {
+                    "x" : 270,
+                    "y" : 0,
+                    "z" : 0
+                },
+                "scale" : {
+                    "x" : 100,
+                    "y" : 100,
+                    "z" : 100
+                },
+                "assetPath" : {
+                    "status" : "Not a Prefab",
+                    "reason" : "Generic GameObject"
+                }
+            },
+            {
+                "instanceName" : "Lamp_1",
+                "position" : {
+                    "x" : -2.8414044380188,
+                    "y" : 1.84393429756165,
+                    "z" : 1.01126265525818
+                },
+                "rotation" : {
+                    "x" : 90,
+                    "y" : 180,
+                    "z" : 0
+                },
+                "scale" : {
+                    "x" : 100,
+                    "y" : 100,
+                    "z" : 100
+                },
+                "assetPath" : {
+                    "status" : "Not a Prefab",
+                    "reason" : "Generic GameObject"
+                }
+            },
+            {
+                "instanceName" : "Lamp_2",
+                "position" : {
+                    "x" : 1.55577778816223,
+                    "y" : 1.84388136863708,
+                    "z" : -0.827178478240967
+                },
+                "rotation" : {
+                    "x" : 90,
+                    "y" : 89.9999847412109,
+                    "z" : 0
+                },
+                "scale" : {
+                    "x" : 100,
+                    "y" : 100,
+                    "z" : 100
+                },
+                "assetPath" : {
+                    "status" : "Not a Prefab",
+                    "reason" : "Generic GameObject"
+                }
+            },
+            {
+                "instanceName" : "Shelf_3",
+                "position" : {
+                    "x" : -2.96647691726685,
+                    "y" : -0.754747629165649,
+                    "z" : -0.109197974205017
+                },
+                "rotation" : {
+                    "x" : 270,
+                    "y" : 180.000137329102,
+                    "z" : 0
+                },
+                "scale" : {
+                    "x" : 100,
+                    "y" : 100,
+                    "z" : 100
+                },
+                "assetPath" : {
+                    "status" : "Not a Prefab",
+                    "reason" : "Generic GameObject"
+                }
+            },
+            {
+                "instanceName" : "Shelf_4",
+                "position" : {
+                    "x" : -2.99406814575195,
+                    "y" : -0.75465989112854,
+                    "z" : -0.829260110855103
+                },
+                "rotation" : {
+                    "x" : 270,
+                    "y" : 180,
+                    "z" : 0
+                },
+                "scale" : {
+                    "x" : 100,
+                    "y" : 100,
+                    "z" : 100
+                },
+                "assetPath" : {
+                    "status" : "Not a Prefab",
+                    "reason" : "Generic GameObject"
+                }
+            },
+            {
+                "instanceName" : "Shelf_5",
+                "position" : {
+                    "x" : 0.567089557647705,
+                    "y" : -0.754612743854523,
+                    "z" : -1.7417140007019
+                },
+                "rotation" : {
+                    "x" : 270,
+                    "y" : 89.9999923706055,
+                    "z" : 0
+                },
+                "scale" : {
+                    "x" : 100,
+                    "y" : 100,
+                    "z" : 100
+                },
+                "assetPath" : {
+                    "status" : "Not a Prefab",
+                    "reason" : "Generic GameObject"
+                }
+            },
+            {
+                "instanceName" : "Shelf_6",
+                "position" : {
+                    "x" : 1.24038469791412,
+                    "y" : -0.754637837409973,
+                    "z" : -1.79555654525757
+                },
+                "rotation" : {
+                    "x" : 270,
+                    "y" : 90.002197265625,
+                    "z" : 0
+                },
+                "scale" : {
+                    "x" : 100,
+                    "y" : 100,
+                    "z" : 100
+                },
+                "assetPath" : {
+                    "status" : "Not a Prefab",
+                    "reason" : "Generic GameObject"
+                }
+            },
+            {
+                "instanceName" : "Art_1",
+                "position" : {
+                    "x" : 0.922226786613464,
+                    "y" : 0.423149704933167,
+                    "z" : 1.67622470855713
+                },
+                "rotation" : {
+                    "x" : 270,
+                    "y" : 270,
+                    "z" : 0
+                },
+                "scale" : {
+                    "x" : 100,
+                    "y" : 100,
+                    "z" : 100
+                },
+                "assetPath" : {
+                    "status" : "Not a Prefab",
+                    "reason" : "Generic GameObject"
+                }
+            },
+            {
+                "instanceName" : "Art_2",
+                "position" : {
+                    "x" : 2.483806848526,
+                    "y" : 0.513297557830811,
+                    "z" : -0.565680503845215
+                },
+                "rotation" : {
+                    "x" : 270,
+                    "y" : 0.00270445854403079,
+                    "z" : 0
+                },
+                "scale" : {
+                    "x" : 100,
+                    "y" : 100,
+                    "z" : 100
+                },
+                "assetPath" : {
+                    "status" : "Not a Prefab",
+                    "reason" : "Generic GameObject"
+                }
+            },
+            {
+                "instanceName" : "Art_3",
+                "position" : {
+                    "x" : -1.79423379898071,
+                    "y" : 0.969512343406677,
+                    "z" : -2.00700330734253
+                },
+                "rotation" : {
+                    "x" : 270,
+                    "y" : 90.002197265625,
+                    "z" : 0
+                },
+                "scale" : {
+                    "x" : 100,
+                    "y" : 100,
+                    "z" : 100
+                },
+                "assetPath" : {
+                    "status" : "Not a Prefab",
+                    "reason" : "Generic GameObject"
+                }
+            },
+            {
+                "instanceName" : "Art_4",
+                "position" : {
+                    "x" : 0.637464046478271,
+                    "y" : 0.526474952697754,
+                    "z" : -2.00694894790649
+                },
+                "rotation" : {
+                    "x" : 270,
+                    "y" : 89.9999923706055,
+                    "z" : 0
+                },
+                "scale" : {
+                    "x" : 100,
+                    "y" : 100,
+                    "z" : 100
+                },
+                "assetPath" : {
+                    "status" : "Not a Prefab",
+                    "reason" : "Generic GameObject"
+                }
+            },
+            {
+                "instanceName" : "Window_1",
+                "position" : {
+                    "x" : -3.20943546295166,
+                    "y" : 0.589082837104797,
+                    "z" : -0.268038272857666
+                },
+                "rotation" : {
+                    "x" : 90,
+                    "y" : 270.000030517578,
+                    "z" : 0
+                },
+                "scale" : {
+                    "x" : 100,
+                    "y" : 100,
+                    "z" : 100
+                },
+                "assetPath" : {
+                    "status" : "Not a Prefab",
+                    "reason" : "Generic GameObject"
+                }
+            }
+        ]
+    },
+    "combinationId" : "combination_000",
+    "actors" : [
+        {
+            "animationName" : "sequence264",
+            "tunedOffset" : {
+                "x" : 1.53035712242126,
+                "y" : -0.730361580848694,
+                "z" : -1.26964294910431
+            },
+            "tunedRotationY" : 60,
+            "description" : "A person lies on the floor and is sleeping., The person stands up from the floor., A person performs a bowing motion.",
+            "prompt_segments" : [
+                {
+                    "prompt" : "A person lies on the floor and is sleeping.",
+                    "label" : "sleeping",
+                    "start_frame" : 0,
+                    "end_frame" : 150,
+                    "num_frames" : 150
+                },
+                {
+                    "prompt" : "The person stands up from the floor.",
+                    "label" : "standing",
+                    "start_frame" : 150,
+                    "end_frame" : 270,
+                    "num_frames" : 120
+                },
+                {
+                    "prompt" : "A person performs a bowing motion.",
+                    "label" : "bowing",
+                    "start_frame" : 250,
+                    "end_frame" : 320,
+                    "num_frames" : 70
+                }
+            ],
+            "shapePresetName" : "tall.json",
+            "shapePresetBetas" : [
+                5,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "animationName" : "sequence238",
+            "tunedOffset" : {
+                "x" : -2.60008931159973,
+                "y" : -0.730361580848694,
+                "z" : -1.37335109710693
+            },
+            "tunedRotationY" : 160,
+            "description" : "A person performs a bowing motion., The person stands and stretches their arms., The person delivers a punch with an arm.",
+            "prompt_segments" : [
+                {
+                    "prompt" : "A person performs a bowing motion.",
+                    "label" : "bowing",
+                    "start_frame" : 0,
+                    "end_frame" : 100,
+                    "num_frames" : 100
+                },
+                {
+                    "prompt" : "The person stands and stretches their arms.",
+                    "label" : "stretching",
+                    "start_frame" : 100,
+                    "end_frame" : 220,
+                    "num_frames" : 120
+                },
+                {
+                    "prompt" : "The person delivers a punch with an arm.",
+                    "label" : "fighting",
+                    "start_frame" : 200,
+                    "end_frame" : 300,
+                    "num_frames" : 100
+                }
+            ],
+            "shapePresetName" : "tall.json",
+            "shapePresetBetas" : [
+                5,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ]
+        }
+    ]
+}

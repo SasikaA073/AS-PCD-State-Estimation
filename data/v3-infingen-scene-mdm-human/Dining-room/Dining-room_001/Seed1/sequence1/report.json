@@ -1,0 +1,46 @@
+{
+    "animationName" : "sequence1",
+    "description" : "A person stands still., The person takes a step backward., The person stands still.",
+    "tunedOffset" : {
+        "x" : -2.70781803131104,
+        "y" : -0.730361580848694,
+        "z" : 0.500583410263062
+    },
+    "tunedRotationY" : 0,
+    "prompt_segments" : [
+        {
+            "prompt" : "A person stands still.",
+            "label" : "standing",
+            "start_frame" : 0,
+            "end_frame" : 120,
+            "num_frames" : 120
+        },
+        {
+            "prompt" : "The person takes a step backward.",
+            "label" : "walking",
+            "start_frame" : 120,
+            "end_frame" : 190,
+            "num_frames" : 70
+        },
+        {
+            "prompt" : "The person stands still.",
+            "label" : "standing",
+            "start_frame" : 170,
+            "end_frame" : 310,
+            "num_frames" : 140
+        }
+    ],
+    "shapePresetName" : "fat.json",
+    "shapePresetBetas" : [
+        4.96000003814697,
+        5,
+        -1.35000002384186,
+        2.74000000953674,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ]
+}

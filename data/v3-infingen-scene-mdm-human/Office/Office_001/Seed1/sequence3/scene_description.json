@@ -1,0 +1,60 @@
+{
+  "environment": "Office",
+  "full_scene_description": "",
+  "segment_summaries": [
+    {
+      "segment_prompt": "A person performs a bowing motion.",
+      "label": "bowing",
+      "frame_range": [
+        0,
+        50
+      ],
+      "event_descriptions": [
+        "0.10s\u20130.20s: The person approaches the gray colored medium-sized door.",
+        "0.20s\u20130.50s: The person approaches the purple colored large art.",
+        "0.30s\u20130.30s: The person is near the gray colored medium-sized door.",
+        "1.70s\u20131.70s: The person is near the purple colored large art.",
+        "3.60s\u20133.60s: The person is in contact with the gray colored medium-sized door."
+      ],
+      "video_model_description": "The scene is set in an office environment, characterized by a large purple artwork on the wall, a television, and a white shelving unit. A person, who appears to be male and shirtless, enters through a gray medium-sized door. The individual approaches the door, seemingly inspecting or interacting with it. After a moment, the person turns away from the door and walks towards the purple artwork. They stand close to the artwork, appearing to examine it intently. The person then turns back towards the door and performs a bowing motion, touching their head to the floor in a gesture of respect or submission. After the bow, they rise and return to the door, repeating the process of inspecting or interacting with it. The sequence concludes with the person standing near the door, looking towards the camera.\n\nThroughout the scene, the spatial interactions involve the person moving between the door and the artwork, while the bowing motion serves as a significant action that signifies respect or submission within the context of the office environment."
+    },
+    {
+      "segment_prompt": "The person walks forward, then turns to the right.",
+      "label": "walking_and_turning",
+      "frame_range": [
+        50,
+        85
+      ],
+      "event_descriptions": [
+        "5.00s\u20135.10s: The person approaches the purple colored large art.",
+        "5.00s\u20135.00s: The person approaches the gray colored medium-sized door.",
+        "5.10s\u20135.10s: The person is near the gray colored medium-sized door.",
+        "6.10s\u20136.70s: The person is near the purple colored large art.",
+        "6.30s\u20136.30s: The person moves away from the gray colored medium-sized door."
+      ],
+      "video_model_description": "The scene depicts an office environment with a person dressed in light-colored shorts. The room has a modern aesthetic with a large, colorful abstract painting on the wall, a white shelving unit with a television mounted above it, and a wooden desk with a black object on top. The floor is carpeted in a dark color, and there's a door with a gray frame that opens into a brightly lit area.\n\nInitially, the person stands near the door, facing it. They then proceed to walk forward through the door, which leads to another part of the office. After passing through the doorway, the individual turns to their right and walks back towards the camera, eventually stopping in front of the large purple painting. The person appears to be examining or contemplating the artwork before turning to their left and walking back towards the door they initially exited from."
+    },
+    {
+      "segment_prompt": "The person walks backward in a straight line.",
+      "label": "walking",
+      "frame_range": [
+        75,
+        99
+      ],
+      "event_descriptions": [
+        "7.50s\u20137.50s: The person approaches the purple colored large art.",
+        "8.60s\u20138.60s: The person is near the purple colored large art.",
+        "9.40s\u20139.90s: The person approaches the gray colored medium-sized door."
+      ],
+      "video_model_description": "The scene depicts an office environment with a man walking in a straight line across the room. The scene is well-lit, and the office appears to be modern with a minimalist design. The walls are white, and there is a large purple abstract painting on one wall. To the left of the painting, there is a gray door that is slightly ajar, and next to it, there is a white shelving unit. On the opposite side of the room, there is a flat-screen television mounted on the wall above another set of white shelves. The man, who is shirtless and wearing light-colored shorts, is walking from the right side of the frame towards the left, passing by the purple painting. He then turns around and walks back towards the right side of the frame, still maintaining a straight line as described in the task/activity. His movements are steady and purposeful, suggesting he may be engaged in some form of exercise or training within the office space."
+    }
+  ],
+  "metadata": {
+    "num_segments": 3,
+    "num_frames": 100,
+    "num_objects": 17,
+    "num_events": 56,
+    "video_file": "sequence3.mp4",
+    "scene_file": "scene.pcd"
+  }
+}

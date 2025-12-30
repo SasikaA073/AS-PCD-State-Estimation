@@ -1,0 +1,46 @@
+{
+    "animationName" : "sequence2",
+    "description" : "A person is walking in a large circle., The person turns around., The person walks in a large circle.",
+    "tunedOffset" : {
+        "x" : -0.813297390937805,
+        "y" : -0.730361580848694,
+        "z" : -1.86666655540466
+    },
+    "tunedRotationY" : 0,
+    "prompt_segments" : [
+        {
+            "prompt" : "A person is walking in a large circle.",
+            "label" : "walking",
+            "start_frame" : 0,
+            "end_frame" : 70,
+            "num_frames" : 70
+        },
+        {
+            "prompt" : "The person turns around.",
+            "label" : "turning",
+            "start_frame" : 70,
+            "end_frame" : 190,
+            "num_frames" : 120
+        },
+        {
+            "prompt" : "The person walks in a large circle.",
+            "label" : "walking",
+            "start_frame" : 170,
+            "end_frame" : 240,
+            "num_frames" : 70
+        }
+    ],
+    "shapePresetName" : "average.json",
+    "shapePresetBetas" : [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ]
+}
