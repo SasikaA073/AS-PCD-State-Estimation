@@ -13,7 +13,6 @@ This project implements a 3D human tracking system using Point Cloud Data (PCD) 
 *   **Visualization**:
     *   Generates Top-View GIFs of the point cloud and tracking results.
     *   Creates 3D tracking plots comparing Ground Truth, Noisy Measurements, and Kalman Filter Estimates.
-*   **Web Report Generation**: Automatically compiles results into a Swiss-styled HTML report for easy analysis.
 
 ## Requirements
 
